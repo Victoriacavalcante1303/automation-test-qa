@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^26.0.0",
+    "cypress": "^15.18.0",
+    "esbuild": "^0.x.x",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.x.x"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/e2e/[filepath]/*.js"
+  }
+}
