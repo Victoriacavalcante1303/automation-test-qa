@@ -1,3 +1,4 @@
+
 # Automation Test - QA
 
 Projeto de automação de testes usando Cypress + Cucumber, cobrindo o fluxo de login, busca, carrinho e checkout do site automationexercise.com, além de um teste de API na Trello.
@@ -123,3 +124,6 @@ Essa conta precisa existir no site. Caso não exista, é só criar pela tela de 
 
 - O preprocessor do Cucumber, por padrão, associa cada `.feature` ao `.js` de mesmo nome, na mesma pasta. Por isso alguns steps (como "que acesso a página de produtos") aparecem repetidos em mais de um arquivo — isso é esperado nessa configuração.
 - Sempre que alterar o `cypress.config.js` ou renomear/mover arquivos de step, fechar e reabrir o Cypress (não basta clicar em rerun).
+=======
+# automation-test-qa
+>>>>>>> 42d87f0d76086c97b3978c7e52a47b39bf6259cd
